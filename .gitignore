@@ -1,0 +1,46 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test and coverage outputs
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Credentials and config (if not meant for sharing)
+config.py
+
+# Audio or data files (if generated or too large)
+*.wav
+*.flac
+*.mp3
+
+# Misc
+*.bak
+*.swp

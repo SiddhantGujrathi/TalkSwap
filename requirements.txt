@@ -1,0 +1,7 @@
+sounddevice
+numpy
+tk
+requests
+wave
+pyaudio
+ibm_watson
