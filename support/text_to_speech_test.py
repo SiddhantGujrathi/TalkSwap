@@ -3,8 +3,11 @@ import requests
 import simpleaudio as sa
 from io import BytesIO
 from requests.auth import HTTPBasicAuth
-from config import WATSON_TTS_API_KEY, WATSON_TTS_URL
+import os
+import sys
 import wave
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config import WATSON_TTS_API_KEY, WATSON_TTS_URL
 
 # Replace with your credentials
 API_KEY = WATSON_TTS_API_KEY

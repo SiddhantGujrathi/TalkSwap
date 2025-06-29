@@ -8,10 +8,11 @@ import time
 import wave
 import requests
 from io import BytesIO
-
-# Watson credentials
-WATSON_STT_API_KEY = "k51lTDrEovET0LSYMFviwXq5jAJS6-XLYXT2NNWuEXI6"
-WATSON_STT_URL = "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/ec83e80a-7bb7-4bd6-a5e0-cba3b79f6556"
+import os
+import sys
+import wave
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config import WATSON_STT_API_KEY, WATSON_STT_URL
 
 # Settings
 SAMPLE_RATE = 16000

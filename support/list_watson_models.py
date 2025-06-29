@@ -1,7 +1,9 @@
-# list_watson_models.py
-
 import requests
-from config import WATSON_STT_API_KEY, WATSON_STT_URL  # Make sure your config is correct
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config import WATSON_STT_API_KEY, WATSON_STT_URL
+
 
 def list_watson_models():
     url = f"{WATSON_STT_URL}/v1/models"

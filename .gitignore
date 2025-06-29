@@ -33,8 +33,8 @@ htmlcov/
 .nox/
 .pytest_cache/
 
-# Credentials and config (if not meant for sharing)
-config.py
+# # Credentials and config (if not meant for sharing)
+# config.py
 
 # Audio or data files (if generated or too large)
 *.wav
